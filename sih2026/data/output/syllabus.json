@@ -1,10 +1,30 @@
 {
-  "filename": "syllabus.docx",
+  "filename": "syllabus.pdf",
+  "total_pages": 2,
+  "total_words": 30,
   "pages": [
     {
       "page_number": 1,
-      "text": "DEPARTMENT OF COMPUTER SCIENCE\nUNIT I: CLOUD COMPUTING ARCHITECTURE\nModule | Credits\nVirtualization | 4",
-      "extraction_method": "docx"
+      "text": "UNIT I: INTRODUCTION TO DATA SCIENCE\nConcepts of Big Data, Data Processing Pipeline.\nTools and Frameworks.",
+      "extraction_method": "text",
+      "word_count": 16,
+      "lines": [
+        "UNIT I: INTRODUCTION TO DATA SCIENCE",
+        "Concepts of Big Data, Data Processing Pipeline.",
+        "Tools and Frameworks."
+      ]
+    },
+    {
+      "page_number": 2,
+      "text": "UNIT II: MACHINE LEARNING ALGORITHMS\nSupervised vs Unsupervised Learning.\nDecision Trees & Random Forests.",
+      "extraction_method": "text",
+      "word_count": 14,
+      "lines": [
+        "UNIT II: MACHINE LEARNING ALGORITHMS",
+        "Supervised vs Unsupervised Learning.",
+        "Decision Trees & Random Forests."
+      ]
     }
-  ]
+  ],
+  "llm_input_context": "--- DOCUMENT START: syllabus.pdf ---\n\n[PAGE 1]\nUNIT I: INTRODUCTION TO DATA SCIENCE\nConcepts of Big Data, Data Processing Pipeline.\nTools and Frameworks.\n\n[PAGE 2]\nUNIT II: MACHINE LEARNING ALGORITHMS\nSupervised vs Unsupervised Learning.\nDecision Trees & Random Forests.\n\n--- DOCUMENT END ---"
 }
