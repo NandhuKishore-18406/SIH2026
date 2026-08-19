@@ -1,0 +1,22 @@
+[project]
+name = "sih2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "NandhuKishore-18406", email = "nandhukishore18406@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic>=2.13.4",
+    "pymupdf>=1.28.2",
+    "pytest>=9.1.1",
+    "python-docx>=1.2.0",
+]
+
+[project.scripts]
+sih2026 = "sih2026.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
