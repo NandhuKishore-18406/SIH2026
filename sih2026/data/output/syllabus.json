@@ -1,0 +1,10 @@
+{
+  "filename": "syllabus.docx",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "DEPARTMENT OF COMPUTER SCIENCE\nUNIT I: CLOUD COMPUTING ARCHITECTURE\nModule | Credits\nVirtualization | 4",
+      "extraction_method": "docx"
+    }
+  ]
+}
